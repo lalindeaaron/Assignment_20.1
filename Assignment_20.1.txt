@@ -1,0 +1,19 @@
+﻿1. What are the three stages to build the hypotheses or model in machine learning?
+    The three stages are building a model, testing model, and then applying the model that was created.
+
+
+2. What is the standard approach to supervised learning?
+    The standard approach of supervised learning algorithms is when the input and expected output are both known. It learns and then modifies the model accordingly. It is useful when it uses historical data to then determine/predict future data. 
+
+
+3. What is Training set and Test set?
+    Training set is the dataset that is used to train the model. in training the model, specific features are picked from the training set. they are then incorporated into the model. If the training set is labeled correctly the model will then be able to learn efficiently. 
+    
+    Test set is the dataset used to measure how well the model performs at making predictions on the test set after training.
+    
+4. What is the general principle of an ensemble method and what is bagging and boosting in ensemble method?
+    The ensemble method is used to combine the predictions of various models that were built with a given algorithm. This will improve the robustness over the single model. Bagging is used in the ensemble method to improve unstable estimation or classification. Boosting is used to reduce the bias of the combined model. Both methods are known to reduce errors by reducing the variance term. 
+
+
+5. How can you avoid overfitting?
+    Overfitting occurs when it models the data too accurately and picks up "noise" generally due to smaller datasets. It can be avoided by using larger datasets. If using a larger dataset is not an option cross validation can also be used. This is done by splitting the data into two section, testing and training datasets. The testing dataset will only test the model. In training dataset, the data points will come up with the model. the data is known for the training dataset and unknown for the testing dataset.
